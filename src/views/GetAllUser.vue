@@ -13,10 +13,11 @@
 					<el-button type="primary" @click="handleAdd">新增</el-button>
 				</el-form-item>
 			</el-form>
+
 		</el-col>
 
     <!--列表-->
-
+<!--列表-->
     <el-table
       id = "mytable"
       :data="tableData"
